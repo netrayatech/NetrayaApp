@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "1028794746194",
+    "firebase_url": "https://netrayasmt-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "netrayasmt",
+    "storage_bucket": "netrayasmt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028794746194:android:6fd57bd2edf073cd9a668b",
+        "android_client_info": {
+          "package_name": "com.hexamk.netraya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028794746194-4nmt7demedqlt73qogt7ua18474hj8ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hexamk.netraya",
+            "certificate_hash": "7569a402cdf0223539703629a12410a2cf16de9d"
+          }
+        },
+        {
+          "client_id": "1028794746194-7jjp4hrkkcp9n266s5epveiaf4ajicga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLmDwYGLdM9SZ0pjYc_uu65pYebN7pxZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028794746194-7jjp4hrkkcp9n266s5epveiaf4ajicga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028794746194:android:285990c7375f1b619a668b",
+        "android_client_info": {
+          "package_name": "com.satnusa.smt.netraya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028794746194-as60bie0q1218ka8ohqkh99is5cjuj0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satnusa.smt.netraya",
+            "certificate_hash": "deb037e12762dc7639cde31f6a83053198de4647"
+          }
+        },
+        {
+          "client_id": "1028794746194-hn7ic9p8a6ff055rc1p07g6b0e76qa7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satnusa.smt.netraya",
+            "certificate_hash": "0a2a64f1de1b382b9e5f6858f8d8a5be42241a50"
+          }
+        },
+        {
+          "client_id": "1028794746194-7jjp4hrkkcp9n266s5epveiaf4ajicga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLmDwYGLdM9SZ0pjYc_uu65pYebN7pxZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028794746194-7jjp4hrkkcp9n266s5epveiaf4ajicga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
