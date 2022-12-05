@@ -55,7 +55,7 @@ class CustomBottomAppBar extends StatelessWidget {
               child: BottomAppBarItem(
                 selected: false,
                 onTap: () => changePage(1),
-                text: appLocalizations.attendance,
+                text: appLocalizations.scanning,
               ),
             ),
             Flexible(
