@@ -4,11 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:netraya/constants/app_colors.dart';
 import 'package:netraya/providers/main_screen_provider.dart';
-import 'package:netraya/screens/absensi_screen.dart';
+// import 'package:netraya/screens/absensi_screen.dart';
 import 'package:netraya/screens/pages/history_page.dart';
 import 'package:netraya/screens/pages/home_page.dart';
 import 'package:netraya/screens/pages/notifikasi_page.dart';
 import 'package:netraya/screens/pages/profile_page.dart';
+import 'package:netraya/screens/pic_controlling/pic_scan_qr_screen.dart';
 import 'package:netraya/widgets/custom_bottom_app_bar.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -40,11 +41,11 @@ class _MainScreenState extends State<MainScreen> {
           height: 65,
           child: FloatingActionButton(
             elevation: 3,
-            onPressed: () => Navigator.of(context).pushNamed(AbsensiScreen.routeName),
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => const PICScanQrScreen(),)),
             backgroundColor: AppColors.darkRed,
             child: SvgPicture.asset(
               'assets/svg/qr-code-scan.svg',
-              width: 40,
+              width: 38,
               color: Colors.white,
             ),
           ),

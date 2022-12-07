@@ -10,6 +10,7 @@ import 'package:netraya/services/pic_controlling_service.dart';
 import 'package:netraya/widgets/absensi/camera_screen.dart';
 import 'package:netraya/widgets/widget_functions.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class PICScanQrScreen extends StatefulWidget {
   const PICScanQrScreen({Key? key}) : super(key: key);
@@ -36,6 +37,8 @@ class _PICScanQrScreenState extends State<PICScanQrScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final appLocalizations = AppLocalizations.of(context)!;
+
     return Scaffold(
       extendBodyBehindAppBar: true,
       body: Stack(
@@ -54,9 +57,9 @@ class _PICScanQrScreenState extends State<PICScanQrScreen> {
             right: 0,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
-                  'Scan Kode QR',
+                  appLocalizations.scanCodeTitle,
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14, color: Colors.white),
                 ),
               ],
@@ -65,8 +68,8 @@ class _PICScanQrScreenState extends State<PICScanQrScreen> {
           Center(
             child: Container(
                 margin: const EdgeInsets.only(top: 500),
-                child: const Text(
-                  "Scan kode QR perangkat",
+                child: Text(
+                  appLocalizations.scanCodeFooter,
                   style: TextStyle(color: Colors.white),
                 )),
           ),

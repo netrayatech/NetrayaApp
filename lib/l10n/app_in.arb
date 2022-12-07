@@ -57,5 +57,7 @@
     "pressAgainToExit": "Tekan lagi untuk keluar dari aplikasi",
     "picControlling": "Patrolling Line",
     "smtManagement": "SMT Management",
-    "taskManagement": "Task Management"
+    "taskManagement": "Task Management",
+    "scanCodeTitle": "Scan Kode QR",
+    "scanCodeFooter": "Scan Kode QR Perangkat"
 }

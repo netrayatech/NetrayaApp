@@ -57,5 +57,7 @@
     "pressAgainToExit": "Press again to exit the app",
     "picControlling": "Patrolling Line",
     "smtManagement": "SMT Management",
-    "taskManagement": "Task Management"
+    "taskManagement": "Task Management",
+    "scanCodeTitle": "Scan QRCODE",
+    "scanCodeFooter": "Scan QRCODE Device"
 }

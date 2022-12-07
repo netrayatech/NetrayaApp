@@ -149,7 +149,7 @@ class HomeScreenAppBar extends StatelessWidget {
                           ? '0'
                           : snapshot.data![now.year.toString()]['alpha']
                               .toString(),
-                      subtitle: 'Machine Down',
+                      subtitle: 'Machine Issue',
                       titleColor: const Color.fromRGBO(225, 61, 61, 1),
                     ),
                   ),
